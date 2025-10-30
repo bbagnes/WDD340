@@ -232,6 +232,7 @@ div.upgrades {
   grid-template-areas: 
         "capacitor decals"
         "stickers caps";
+  grid-gap: 10px;
   max-width: 300px;
   font-family: var(--paragraph-font);
   margin: 2px;
@@ -329,9 +330,7 @@ li.vehDesc {
     text-align: center;
   }
 
-  div.reviews h2, div.upgrades h2 {
-    font-size: 1.8rem;
-  }
+  
 
   div.delorean {
   top: 200px;
@@ -352,7 +351,7 @@ li.vehDesc {
   header, nav, main, footer{
     border-left: var(--border2);
     border-right: var(--border2);
-    border-radius: 6px;
+    border-radius: 3px;
   }
 
   header {
@@ -382,6 +381,9 @@ li.vehDesc {
   #vehicle-display {
     display: flex;
     font-size: larger;
+  }
+  div.reviews h2, div.upgrades h2 {
+      font-size: 1.8rem;
   }
 
   section.vehImage {
