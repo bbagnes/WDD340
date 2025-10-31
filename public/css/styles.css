@@ -7,9 +7,9 @@
 
 :root {
     --primary-color: #FFFFFF;
-    --secondary-color: #9999FF;
+    --secondary-color: #4177cd;
     --accent1-color: #1f1f1f;
-    --accent2-color: #3066be;
+    --accent2-color: #4177cd;
 
     --heading-font: "Audiowide", Arial, sans-serif;
     --paragraph-font: "Roboto", Arial, sans-serif;
@@ -184,7 +184,7 @@ div.delorean {
   height: 93px;
   color: var(--accent2-color);
   background-color: white;  
-  opacity: .7;
+  opacity: .9;
   padding: 0;
   margin: 0;
 }
@@ -195,7 +195,6 @@ div.delorean h2, div.delorean a {
 }
 
 div.delorean p, div.delorean h2, div.delorean a { 
-  opacity: 1;
   margin: 0;
 }
 
@@ -261,7 +260,7 @@ div.upgrades a {
   color: var(--primary-color);
 }
 
-#manageInv {
+/* #manageInv {
   display: block;
   background-color: var(--secondary-color);
    border: var(--border2);
@@ -271,9 +270,9 @@ div.upgrades a {
 #manageAcc {
   font-size: larger;
   font-weight: 700;
-}
+} */
 
-#vehicle-display {
+/* #vehicle-display {
   display: block;
   background-color: var(--secondary-color);
   font-size: larger;
@@ -281,9 +280,9 @@ div.upgrades a {
   margin: 0 auto;
   border: var(--border2);
   border-radius: 6px;
-}
+} */
 
-section.vehImage {
+/* section.vehImage {
   align-content: flex-start;
   text-align: center;
 }
@@ -300,12 +299,16 @@ section.vehicleDetail {
 
 li.vehDesc {
   margin-bottom: 15px;
+} */
+
+.copyright {
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 560px) {
 
   header span.siteName a {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   header div {    
@@ -327,10 +330,7 @@ li.vehDesc {
   div.reviews, div.upgrades {
     max-width: 48%;
     justify-content: center;
-    text-align: center;
-  }
-
-  
+  }  
 
   div.delorean {
   top: 200px;
@@ -365,17 +365,18 @@ li.vehDesc {
   }
 
   div.delorean {
-  font-size: x-large;
-  top: 220px;
-  height: 166px;
+    font-size: x-large;
+    top: 220px;
+    height: 166px;
+    left: 10%;
   }
 
   div.delorean h2, picture div.delorean a { 
-  font-size: 1.8rem;
+    font-size: 1.8rem;
   }
 
- div.delorean p.space {
-  margin-bottom: 30px;
+  div.delorean p.space {
+    margin-bottom: 30px;
   }
 
   #vehicle-display {
@@ -383,50 +384,24 @@ li.vehDesc {
     font-size: larger;
   }
   div.reviews h2, div.upgrades h2 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
 
   section.vehImage {
- display: inline-block;
- max-width: 500px;
- height: auto;
- margin-bottom: 20px;
-}
+    display: inline-block;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
 
-section.vehicleDetail {
-  display: inline-block;
-  padding: 5px;
-}
-
-
+  section.vehicleDetail {
+    display: inline-block;
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 960px) {
   div.delorean {
-  left: 120px;
-  }
-}
-
-@media screen and (min-width: 1120px) {
-  div.delorean {
-  left: 180px;
-  }
-}
-
-@media screen and (min-width: 1240px) {
-  div.delorean {
-  left: 240px;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  div.delorean {
-  left: 300px;
-  }
-}
-
-@media screen and (min-width: 1480px) {
-  div.delorean {
-  left: 360px;
+  left: 20%;
   }
 }
