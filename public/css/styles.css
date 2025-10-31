@@ -7,15 +7,15 @@
 
 :root {
     --primary-color: #FFFFFF;
-    --secondary-color: #4177cd;
-    --accent1-color: #1f1f1f;
-    --accent2-color: #4177cd;
+    --secondary-color: #3066bc;
+    --accent1-color: #070707;
+    --accent2-color: #3066bc;
 
     --heading-font: "Audiowide", Arial, sans-serif;
     --paragraph-font: "Roboto", Arial, sans-serif;
 
     --nav-background-color: #a3a3a3;
-    --nav-link-color: #1f1f1f;
+    --nav-link-color: #FFF;
     --nav-hover-background-color: #eee8d3;
 
     --border1: 1px solid #999999;
@@ -30,9 +30,7 @@
 }
 
 .roboto-text {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -110,12 +108,9 @@ nav li{
   text-align: center;
   font-weight: 700;
   list-style: none;
+  color:var(--nav-link-color);
   padding: 12px 6px;
   margin: auto;  
-}
-
-nav li a {
-  color: black;
 }
 
 nav li:hover {
