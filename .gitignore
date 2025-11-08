@@ -18,3 +18,7 @@ node_modules
 
 # readme.md is informational only, and should not be on github.
 README.md
+
+#Ignore video files created for w02 assignment.
+w02_assignment_video
+bjb_cse340_w02_db_recreation.mp4
