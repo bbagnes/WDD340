@@ -108,12 +108,17 @@ nav li{
   text-align: center;
   font-weight: 700;
   list-style: none;
-  color:var(--nav-link-color);
+  
   padding: 12px 6px;
   margin: auto;  
 }
 
-nav li:hover {
+nav li a {
+  color:var(--nav-link-color);
+}
+
+nav li:hover, nav li a:hover {
+  color:var(--accent1-color);
   background-color: var(--nav-hover-background-color);
 }
 
