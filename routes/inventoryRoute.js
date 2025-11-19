@@ -12,4 +12,5 @@ router.get("/detail/:vehicleId", utilities.handleErrors(invController.buildVehic
 
 // Route to generate Server Error
 router.get("/errorTest", utilities.handleErrors(invController.serverError));
+
 module.exports = router;
